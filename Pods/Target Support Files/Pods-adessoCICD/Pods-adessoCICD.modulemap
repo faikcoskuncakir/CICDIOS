@@ -1,0 +1,6 @@
+framework module Pods_adessoCICD {
+  umbrella header "Pods-adessoCICD-umbrella.h"
+
+  export *
+  module * { export * }
+}
