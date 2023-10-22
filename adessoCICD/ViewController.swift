@@ -9,13 +9,16 @@ import UIKit
 import AppCenterCrashes
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet private weak var branchLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        branchLabel.text = "Feature-1 Branch"
     }
 
-    @IBAction func crashTestButton(_ sender: Any) {
+    @IBAction private func crashTestButton(_ sender: Any) {
         Crashes.generateTestCrash()
     }
     
