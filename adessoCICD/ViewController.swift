@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        branchLabel.text = "Feature-1 Branch"
+        branchLabel.text = "Feature-1 Branchh"
     }
 
     @IBAction private func crashTestButton(_ sender: Any) {
